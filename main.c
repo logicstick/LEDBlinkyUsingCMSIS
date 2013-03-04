@@ -19,9 +19,6 @@
 int main(void){
 	int i = 0;
 	
-	// Call system init
-	SystemInit();
-	
 	// Enable output on the following pin
 	GPIO_SetDir(PORT1, LED, ENABLE_OUTPUT);
 	
